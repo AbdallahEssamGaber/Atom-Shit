@@ -1,0 +1,73 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+  "_id": "autocomplete-unity@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-xVzW9WPfRVeOIYnlizCMBLSxLG7zazBOdngRFhKGUoMoMqTB4COe5mrKpKn3lU7ejVH17aRdJdCCIzpEtpwOQQ==",
+  "_location": "/autocomplete-unity",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+  "_shasum": "9947c0dfc61d3baed065d77b66a822df398ff592",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-unity/versions/0.1.3/tarball",
+  "_where": "C:\\Users\\Clay\\AppData\\Local\\Temp\\apm-install-dir-2021629-660-1t3q3sb.9z8o",
+  "author": {
+    "name": "ThiagoLA92",
+    "email": "thiagola92@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagola92/autocomplete-unity/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "api": {
+      "title": "API version",
+      "description": "Close and open atom to refresh (ctrl-shift-F5)",
+      "type": "string",
+      "default": "2019.1b",
+      "enum": [
+        "2019.1b",
+        "2018.3",
+        "2017.4"
+      ]
+    }
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "deprecated": false,
+  "description": "Autocomplete for Unity (game engine).",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "homepage": "https://github.com/thiagola92/autocomplete-unity#readme",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "unity"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-unity",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagola92/autocomplete-unity.git"
+  },
+  "version": "0.1.3"
+}

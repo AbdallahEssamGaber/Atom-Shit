@@ -1,0 +1,52 @@
+"*":
+  "atom-beautify":
+    cpp:
+      beautify_on_save: true
+  "auto-highlight":
+    decorate: "box"
+    highlightSelectionMaxNumberOfWord: 1
+  build:
+    saveOnBuild: true
+  core:
+    disabledPackages: [
+      "language-todo"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-beautify"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "material-ui"
+      "one-dark-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 18
+    softWrap: true
+  "exception-reporting":
+    userId: "7a486fd3-62a6-472a-b2b6-3700c5dadf2d"
+  "file-icons":
+    coloured: false
+  fonts:
+    fontFamily: "JetBrains Mono"
+  "linter-ui-default":
+    panelHeight: 217.5
+    useBusySignal: false
+  minimap: {}
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.rst"
+      "text.restructuredtext"
+      "text.tex.latex"
+    ]
+  "todo-show": {}
+  "tool-bar":
+    position: "Left"
+    visible: false
+  welcome:
+    showOnStartup: false
